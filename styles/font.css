@@ -1,0 +1,9 @@
+@font-face {
+    font-family:"Inter-Italic-VariableFont_opsz,wght";
+    src: url(../font/Inter-Italic-VariableFont_opsz\,wght.ttf) format('truetype');
+}
+
+@font-face {
+    font-family:"Inter-VariableFont_opsz,wght";
+    src: url(../font/Inter-VariableFont_opsz\,wght.ttf) format('truetype');
+}
