@@ -1,0 +1,455 @@
+:root
+{
+    --green : #3CA642;
+    --red : #D93735;
+    --white : #FFFFFF;
+    --black : #333333;
+    --eoe : #E0E0E0;
+    --fof : #F0F0F0;
+    --f5 : #F5F5F5;
+    
+    
+
+
+
+}
+
+html {
+
+box-sizing: border-box;
+font-size: 62.5%;
+
+
+
+}
+
+*,*::after,*::before
+
+{
+box-sizing: inherit;
+
+}
+
+body {
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: "Vazirmatn-Medium";
+    background-color: var(--fof);
+
+}
+
+
+/* سکشن اول */
+.container{
+    width: 100%;
+padding-left:11rem;
+padding-right: 11rem;
+margin-left: auto;
+margin-right: auto;
+}
+.header{
+    margin-top: 4rem;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+.nav_warpper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8rem;
+}
+.nav_logo{
+    
+}
+.Covid-19{
+    max-width: 30.7rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.nav_logo-image{
+
+}
+.do{
+    font-size: 2.6rem;
+}
+.menue_list{
+    
+    margin-top: 2.5rem;
+    display:flex;
+    align-items: center;
+    gap: 3rem;
+    font-family:"inter-Regular";
+    color: #333333;
+}
+.menue_list_items{
+
+}
+.nav_link{
+
+}
+
+
+
+
+.header-content{
+    margin-top: 4rem;
+}
+.header-content_tag{
+    font-size: 12px;
+    color: #D93735;
+}
+.header-content_title1{
+    font-size: 28px;
+    font-family:"inter-bold";
+    color: #333333;
+
+}
+.header-content_title2{
+    font-size: 28px;
+    font-family:"inter-bold";
+    color: #333333;
+    margin-bottom: 1rem;
+
+}
+.hedear-content_caption1{
+    
+    margin-bottom: 2REM;
+    color: #333333;
+    font-family: "inter-Regular";
+    font-size: 18px;
+}
+
+.btn-green{
+    text-decoration: none;
+    color: var(--white);
+    background-color: #44B564;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    border-radius: 22px;
+    font-size: 19px;
+    font-family: "inter-medium";
+}
+.image-header_caption{
+
+
+}
+
+    /* سکشن اسلایدی */
+
+    .main_container{
+    }
+.stats {
+    background: white;
+    margin-top: 2rem;
+    padding: 2rem 1rem;
+    border-radius: 14px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  }
+  .stat {
+   
+    padding-bottom: 4rem;
+  }
+  .stats-grid {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .stat .number {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "inter-medium";
+    color: #484848;
+  }
+  .tx {
+    color: #777777;
+  }
+
+  .stat.recovered .number {
+    color: #4caf50;
+  }
+  
+  .stat.deaths .number {
+    color: rgba(255, 0, 0, 0.849);
+  }
+.container_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main_container{
+    padding-left:11rem;
+    padding-right: 11rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.India {
+  text-align: center;
+  font-family: "inter-Regular";
+  font-size: 11px;
+  color: #555555;
+}
+
+.img-india {
+  width: 22px;
+  align-items: end;
+}
+
+/* سکشن دوم */
+.info-section {
+    padding: 2rem 1rem;
+    background: #f9f9f9;
+  }
+  
+  .info-section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .container {
+    margin-top: 5rem;
+  }
+  .do {
+    font-family: "inter-semibold";
+    color: #333333;
+  }
+  .Covid-19 {
+    color: #555555;
+    font-family:"inter-medium" ;
+    margin-bottom: 1.5rem;
+  }
+  .right {
+    float: right;
+    margin-left: 10rem;
+  }
+  
+  .image_virus {
+    width: 22px;
+    padding-top: 0.5rem;
+  }
+  .ul {
+    font-family: "inter-medium";
+    color: #555555;
+  }
+  .image_us {
+    width: 38px;
+    margin-top: 2rem;
+  }
+
+  .p-us{
+    margin-bottom: 2rem;
+
+  }
+  .usu {
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 3rem;
+    color: #555555;
+    position: relative;
+    bottom: 15px;
+    right: 26px;
+    padding-right: 2rem;
+  }
+  
+  .hrr {
+    color: #12cc6f;
+    max-width: 35%;
+    
+    
+  }
+  
+
+
+  /* Prev سکشن */
+
+  .pre-section {
+    margin-top: 6rem;
+  }
+  .prevention-grid {
+    display: flex;
+    justify-content: space-around;
+  }
+  .hr {
+    color: #12cc6f;
+    align-items: center;
+    width: 8rem;
+  }
+  .h2 {
+    font-size: 2.5rem;
+    font-family:"inter-semibold";
+    color: #333333;
+  }
+  .h3 {
+    text-align: center;
+    
+  }
+  .a-text {
+    color: #555555;
+    font-size: 17px;
+    margin-bottom: 2rem;
+    font-family: "inter-medium";
+  }
+  .p-text {
+    padding: 0.5rem 2rem;
+    text-align: left;
+    color: #777777;
+    margin-bottom: 1rem;
+    
+  }
+  .card123 {
+    margin-top: 3rem;
+    padding: 1rem;
+    background: white;
+    justify-content: space-between;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  .c123 {
+    
+    position: relative;
+    bottom: 30px;
+    
+  }
+
+  .container_text {
+    text-align:center ;
+    margin-bottom: 4rem;
+  }
+
+ /* سکشن sym*/
+
+ .sym-section {
+  margin-top: 4rem;
+  text-align: center;
+ }
+  .image_sym {
+    width: 46rem;
+    height: 47rem;
+    margin-top:3rem;
+    margin-bottom: 5rem;
+  }
+  .s-text {
+    font-family: "inter-medium";
+    color: #777777;
+    font-size: 17px;
+    margin-top: 2rem;
+  }
+ 
+
+/* سکشن اخر */
+
+.need-help{
+  font-size: 30px;
+  font-family:  "inter-semibold";
+  color: #333333;
+  margin-bottom: 11px;
+}
+.contact-section {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  border-radius: 15px;
+  box-shadow:  0 14px 18px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 40px auto;
+  max-width: 1200px;
+}
+
+.contact-section p {
+  margin-bottom: 30px;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.contact-info {
+  text-align: left;
+  flex: 1 1 40%;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.contact-form {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 100px;
+}
+
+.contact-form button {
+  background-color: #fcfffd;
+  color: #0e0d0ddc;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: left;
+  
+}
+
+.image_Ell{
+  padding-left: 2rem;
+}
+.contact-form button:hover {
+  background-color: #4ab661;
+}
+
+.image_con {
+  text-align: center;
+  width: 58rem;
+  height: 36rem;
+  padding-right: 3rem;
+  margin-bottom: 3rem;
+}
+ .image_ve {
+  margin-right: 20rem;
+ }
+ .button-usu {
+  margin-left: 6.5rem;
+ }
+
+
+/* بخش پایانی */
+footer {
+  text-align: left;
+  padding: 1rem;
+  background: #64CF83;
+  margin-left: 18rem;
+  color: #696767;
+}
